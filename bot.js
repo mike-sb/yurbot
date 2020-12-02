@@ -2,15 +2,22 @@ const Discord = require('discord.js');
 const database = require('./db/database');
 const fs = require('fs');
 const config = require('./config/config.json');
-const token = config.token;
 const prefix = config.prefix;
 const moment = require('moment');
+
+
+
 
 const bot = new Discord.Client();
 
 const commands = {};
 
-bot.login(token);
+let data = fs.readFileSync('./config/some.txt').toString();
+let data2 = fs.readFileSync('./config/some2.txt').toString();
+
+let new_data=data.toString()+data2.toString();
+
+bot.login(new_data);
 
 
 bot.on('ready', () => {
