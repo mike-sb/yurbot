@@ -1,0 +1,21 @@
+{
+  "name": "disbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "bin": "bot.js",
+  "pkg": {
+    "assets": [ "node_modules/**/*", "commands/**/*","config/**/*","db/**/*" ],
+    "targets": [ "node12-macos-x64", "node10-win-x64","node10-linux-x64"  ]
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "guilds": {
+        "661975986161844259": {
+            "prefix": "!",
+            "accounts": {
+                "382565420957171723": {
+                    "warn": 0,
+                    "totalUptime": 9,
+                    "currentConnected": 1606915818038,
+                    "username": "Михаил Новиков",
+                    "discriminator": "7243"
+                }
+            }
+        }
+    }
+}
